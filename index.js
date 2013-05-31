@@ -16,6 +16,22 @@ var Spawn = function(options) {
     this.option(options);
 };
 
+Spawn.joinParams =function() {
+    var result = [];
+    for (var i = 0; i < arguments.length; i++) {
+        if (arguments[i] !== undefined && arguments[i] !== null) {
+            if (util.isArray(arguments[i])) {
+                result = result.concat(arguments[i]);
+            }
+            else {
+                result.push(arguments[i]);
+            }
+        }
+    }
+
+    return result;
+}
+
 Spawn.prototype = {
     cmd: function(cmd, callback) {
         if (!util.isArray(cmd)) {

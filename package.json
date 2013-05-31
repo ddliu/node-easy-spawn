@@ -1,6 +1,6 @@
 {
   "name": "easy-spawn",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Utilities that make it easier to write child_process.spawn programmes",
   "main": "index.js",
   "scripts": {
