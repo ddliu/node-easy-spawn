@@ -1,0 +1,23 @@
+{
+  "name": "easy-spawn",
+  "version": "0.0.1",
+  "description": "Utilities that make it easier to write child_process.spawn programmes",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodeunit test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ddliu/node-easy-spawn.git"
+  },
+  "keywords": [
+    "spawn",
+    "child_process",
+    "cli"
+  ],
+  "author": "dong",
+  "license": "MIT",
+  "dependencies": {
+    "config-obj": "0.0.1"
+  }
+}
